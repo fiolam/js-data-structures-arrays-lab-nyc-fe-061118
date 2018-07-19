@@ -18,6 +18,6 @@ function destructivelyRemoveFirstDriver(name){
 }
 function appendDriver(name){
   femaledriver=drivers.slice();
-  femaledriver.push(name)
+  femaledriver.push(name);
   return femaledrivers;
 }
