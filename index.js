@@ -21,7 +21,8 @@ function appendDriver(name){
   femaledriver.push(name);
   return femaledriver;
 }
-function preppendDriver(name){
+function prependDriver(name){
   femaledriver = drivers.slice();
   femaledriver.unshift(name);
   return femaledriver;
+}
