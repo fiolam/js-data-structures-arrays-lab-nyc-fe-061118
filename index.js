@@ -26,7 +26,7 @@ function prependDriver(name){
   femaledriver.unshift(name);
   return femaledriver;
 }
-function prependDriver(name){
+function removeLastDriver(){
   femaledriver = drivers.slice();
   femaledriver.shift(name);
   return femaledriver;
