@@ -31,3 +31,13 @@ function removeFirstDriver(){
   femaledriver.shift(name);
   return femaledriver;
 }
+function removeFirstDriver(){
+  femaledriver = drivers.slice();
+  femaledriver.shift(name);
+  return femaledriver;
+}
+function removeLastDriver(){
+  femaledriver = drivers.slice();
+  femaledriver.pop(name);
+  return femaledriver;
+}
